@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
 import Image from 'next/image';
-import { CheckCircle, Github, Linkedin, Mail } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const skills = [

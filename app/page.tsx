@@ -144,8 +144,7 @@ export default function Home() {
               transition={{ delay: 0.4 }}
               className="text-xl text-gray-300 max-w-2xl mx-auto"
             >
-              Hi, I'm a passionate developer with expertise in Lua and Python. 
-              I love creating efficient and elegant solutions to complex problems.
+             Hi im the owner of Lumin hub and other projects
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }}

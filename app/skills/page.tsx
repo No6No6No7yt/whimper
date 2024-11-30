@@ -7,18 +7,15 @@ const skills = [
 
 export default function Skills() {
   return (
-    <div className="bg-gray-900 text-white py-12 px-6">
-      <h1 className="text-4xl font-bold mb-8 text-center">My Skills</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div>
+      <h1 className="text-3xl font-bold mb-6">My Skills</h1>
+      <div className="grid md:grid-cols-2 gap-6">
         {skills.map((skill) => (
-          <div
-            key={skill.name}
-            className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow transform hover:scale-105"
-          >
-            <h2 className="text-2xl font-semibold mb-4 text-center">{skill.name}</h2>
-            <ul className="space-y-2">
+          <div key={skill.name} className="border p-4 rounded-lg">
+            <h2 className="text-2xl font-semibold mb-2">{skill.name}</h2>
+            <ul>
               {skill.details.map((detail) => (
-                <li key={detail} className="flex items-center text-gray-300">
+                <li key={detail} className="flex items-center mb-2">
                   <CheckCircle className="text-green-500 mr-2" />
                   {detail}
                 </li>
@@ -30,3 +27,4 @@ export default function Skills() {
     </div>
   )
 }
+

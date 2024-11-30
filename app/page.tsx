@@ -123,7 +123,7 @@ export default function Home() {
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
             >
               <Image
-                src="/placeholder.svg?height=200&width=200"
+                src="/profile.png"
                 alt="Profile Picture"
                 width={200}
                 height={200}
